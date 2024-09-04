@@ -7,7 +7,10 @@ May it be useful to you.
 
 * [Library][libraryDirectory] contains links to other content.
 
+* [Review][reviewDirectory] has some guidance concerning code review.
+
 [libraryDirectory]: library
+[reviewDirectory]: review
 
 ## Licence
 
