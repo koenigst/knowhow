@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "base:md": "markdownlint -c ../.markdownlint.json -i node_modules \"../**/*.md\"",
+    "base:prettier": "prettier .. --ignore-path ../.gitignore --ignore-path ../.prettierignore",
+    "fix": "npm run fix:md & npm run fix:prettier",
+    "fix:md": "npm run base:md -- -f",
+    "fix:prettier": "npm run base:prettier -- -w",
+    "lint": "npm run lint:md & npm run lint:prettier",
+    "lint:md": "npm run base:md",
+    "lint:prettier": "npm run base:prettier -- -c"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "0.41.0",
+    "prettier": "3.3.3"
+  }
+}

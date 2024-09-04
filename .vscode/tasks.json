@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "fix",
+      "path": ".tools",
+      "label": "Fix",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "group": {
+        "kind": "build"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "lint",
+      "path": ".tools",
+      "label": "Lint",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "group": {
+        "kind": "build"
+      }
+    }
+  ]
+}

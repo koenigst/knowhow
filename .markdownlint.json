@@ -1,0 +1,7 @@
+{
+  "default": true,
+  "ul-style": {
+    "style": "asterisk"
+  },
+  "line_length": false
+}
