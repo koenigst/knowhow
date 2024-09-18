@@ -11,3 +11,5 @@ This a list of documentation that I found helpful.
 * [Framework design guidelines](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/)
 
   * [Base-classes](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/base-classes-for-implementing-abstractions)
+
+* [Runtime config](https://learn.microsoft.com/en-us/dotnet/core/runtime-config/)
