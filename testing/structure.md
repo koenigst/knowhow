@@ -3,7 +3,7 @@
 Here I describe how I like to structure my test code.
 Some samples following this style can be found in [another repository][testingStyleSamples].
 
-In a lot names some part is in angle brackets `Prefix<ToBeReplaced>Suffix`.
+In a lot of names some part is in angle brackets: `Prefix<ToBeReplaced>Suffix`.
 The part in angle brackets is meant to be replaced while the other parts should be used verbatim.
 
 [testingStyleSamples]: https://github.com/koenigst/samples/tree/main/testing-style
