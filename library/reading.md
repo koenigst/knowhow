@@ -34,3 +34,5 @@ The entries are grouped in categories of decreasing value.
 * Beautiful Code (Oram & Wilson)
 
 * The Art of Unit Testing (Osherove)
+
+* [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html)
