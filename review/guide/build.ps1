@@ -1,13 +1,3 @@
-$sourceFileName = 'presentation.md'
-$outputFileName = 'review_guide_presentation.html'
+. (Join-Path $PSScriptRoot ../../.tools/pandoc.ps1)
 
-$rootDirectory = $PSScriptRoot
-$sourceFile = Join-Path $rootDirectory $sourceFileName
-$outputDirectory = Join-Path $rootDirectory 'output'
-$outputFile = Join-Path $outputDirectory $outputFileName
-
-if (-not (Test-Path $outputDirectory)) {
-  New-Item $outputDirectory -Type Directory
-}
-
-pandoc -t dzslides -s $sourceFile -o $outputFile --embed-resources --standalone
+New-Slides (Join-Path $PSScriptRoot presentation.md) review_guide_presentation.html
