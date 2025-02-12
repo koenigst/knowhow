@@ -28,7 +28,10 @@
     {
       "type": "shell",
       "label": "Build coupling presentation",
-      "command": "${workspaceFolder}/architecture/coupling/build.ps1",
+      "command": "./build.ps1",
+      "options": {
+        "cwd": "${workspaceFolder}/architecture/coupling"
+      },
       "presentation": {
         "reveal": "silent"
       },
@@ -39,7 +42,10 @@
     {
       "type": "shell",
       "label": "Build review guide presentation",
-      "command": "${workspaceFolder}/review/guide/build.ps1",
+      "command": "./build.ps1",
+      "options": {
+        "cwd": "${workspaceFolder}/review/guide"
+      },
       "presentation": {
         "reveal": "silent"
       },
