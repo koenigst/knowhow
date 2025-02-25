@@ -81,7 +81,7 @@ Changes in one module should not necessitate changes in another module unless th
 
 * Design
 * Maintenance
-* Readability
+* Context switching
 * Performance
 
 ::: notes
