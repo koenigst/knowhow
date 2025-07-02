@@ -13,3 +13,5 @@ This a list of documentation that I found helpful.
   * [Base-classes](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/base-classes-for-implementing-abstractions)
 
 * [Runtime config](https://learn.microsoft.com/en-us/dotnet/core/runtime-config/)
+
+* [Task Asynchronous Programming](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model)
