@@ -29,6 +29,12 @@ The entries are grouped in categories of decreasing value.
 
 * [Advice Process](https://martinfowler.com/articles/scaling-architecture-conversationally.html)
 
+* The Mythical Man-Month (Brooks)
+
+  * [Brooks's law](https://en.wikipedia.org/wiki/Brooks%27s_law)
+  
+  * [Second-system effect](https://en.wikipedia.org/wiki/Second-system_effect)
+
 ## Mays
 
 * Beautiful Code (Oram & Wilson)
